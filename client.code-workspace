@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "compose-client"
+		},
+		{
+			"path": "tnmaster-admin"
+		},
+		{
+			"path": "yan100-life/yan100-life-wxpa"
+		},
+		{
+			"path": "prompt-craft"
+		}
+	],
+	"settings": {
+		"explorer.fileNesting.enabled": true,
+		"explorer.fileNesting.patterns": {
+			"*.js": "*.d.ts, *.cjs, *.mjs, *.map, *.ts.map, *.css",
+			"tsconfig.json": "tsconfig.*.json, env.d.ts",
+			"vite.config.*": "eslint.config.*, uno.config.*, vitest.config.*, playwright.config.*, vitest.workspace.*",
+			"build.config.*": "eslint.config.*, uno.config.*, vitest.config.*, playwright.config.*, vitest.workspace.*",
+			"package.json": ".npmrc, .npmignore, pnpm-*.yaml, LICENSE, .gitignore, .gitattributes, .editorconfig, .cursorignore, vitest.workspace.*",
+			"README.md": "LICENSE, .gitignore, .gitattributes, .editorconfig, .cursorignore"
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"name": "compose-server",
+			"path": "compose-server"
+		},
+		{
+			"name": "yan100-life-server",
+			"path": "yan100-life/yan100-life-server"
+		},
+		{
+			"name": "test-docker-env",
+			"path": "test-docker-env"
+		},
+		{
+			"name": "yz-mes-mcp-exp",
+			"path": "yz-mes-mcp-exp"
+		},
+		{
+			"path": "tnmaster-server"
+		}
+	],
+	"settings": {
+		"java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable",
+		"java.compile.nullAnalysis.mode": "automatic",
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}
