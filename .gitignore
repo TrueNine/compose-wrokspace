@@ -1,3 +1,5 @@
 *
 !/*.code-workspace
 !/.gitignore
+!/LICENSE
+!/README.md
